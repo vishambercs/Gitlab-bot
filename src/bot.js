@@ -40,7 +40,7 @@ export const session = new RedisSession({
   store: {
     // host: process.env.DB_REDIS_HOST || '127.0.0.1',
     url : process.env.TELEGRAM_SESSION_HOST || 'redis://redis-server',
-    port: process.env.DB_REDIS_PORT || 6379,
+    port: process.env.DB_REDIS_PORT || 6378,
   }
 });
 
